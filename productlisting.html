@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProductList</title>
+
+  <style type="text/css">
+    .mycard {
+      padding: 17px 35px;
+      margin-top: 100px;
+      align-items: center;
+      transform-style: preserve-3d;
+      transform: perspective(1000px);
+
+    }
+
+    .mycard .card-body {
+      transform: translateZ(60px);
+      padding: 35px;
+    }
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+    /* display: flex;
+    justify-content: space-around;
+    position: relative;
+
+.h6{
+    margin-bottom: 2px solid blue ;
+}
+        btn-btn-primary{
+            background: red;
+        }
+         */
+  </style>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-info">
+    <div class="container-fluid">
+      <form class="d-flex input-group w-auto">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+        <span class="input-group-text text-white border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
+      </form>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 heading">
+          <p class="display-3 fw-bold my-title"> Professional Camera</p>
+          <p class="h4 my-subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere quo ipsa accusamus explicabo saepe veritatis numquam aut, non doloribus? Et qui rerum cum eaque quasi quis mollitia nemo dignissimos.</p>
+          <button class="btn btn-info mt-4 my-btn"> Explore Now </button>
+      </div>
+        <div class="col-md-6 ">
+          <img class="img-fluid header-img" src="undraw_Camera_re_cnp4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="col-md-11 mx-auto">
+    <div class="row text-black gx-5">
+      <div class="col-md-3">
+        <div class="card  mycard bg-danger">
+          <div class=""></div>
+           <img class="card-img-top"
+            src="https://rukminim1.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+            alt="">
+          <h2 class="card-title text-center " 0>SONY A7 SIII</h2>
+          <p class="card-text text-center">12MP - Full frame BSI-CMOS Sensor.
+            ISO 80 - 102400( expands to 50 - 409600)
+            5-axis Sensor-shift Image Stabilization.
+            3.00" Fully articulated Screen.
+            9440k dot Electronic viewfinder.</p>
+          <h6>$2800</h6>
+          <div class="star text-center">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="card-body">
+            <button class="btn btn-secondary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy
+              Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mycard bg-info">
+          <div class="prod-img" style="background-image: url('https://rukminim1.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70');"></div>
+         <img class="card-img-top"
+            src="https://rukminim1.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+            alt="">
+          <h2 class="card-title text-center " 0>SONY A7 SIII</h2>
+          <p class="card-text text-center">12MP - Full frame BSI-CMOS Sensor.
+            ISO 80 - 102400( expands to 50 - 409600)
+            5-axis Sensor-shift Image Stabilization.
+            3.00" Fully articulated Screen.
+            9440k dot Electronic viewfinder.</p>
+          <h6>$2800</h6>
+          <div class="star text-center">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="card-body">
+            <button class="btn btn-secondary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy
+              Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card  mycard bg-info">
+          <img class="card-img-top"
+            src="https://rukminim1.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+            alt="">
+          <h2 class="card-title text-center" 0>Nikon Z30</h2>
+          <p class="card-text text-center">The Z fc is a DX-format mirrorless camera sporting a 20.9MP CMOS sensor,
+            which pairs with EXPEED 6
+            image processing to realize quick shooting performance up to 11 fps, UHD 4K video recording at 30p
+          </p>
+          <h6>$4000</h6>
+          <div class="star text-center">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+
+          <div class="card-body">
+            <button class="btn btn-secondary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy
+              Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card mycard bg-info">
+          <img class="card-img-top "
+            src="https://rukminim1.flixcart.com/image/312/312/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+            alt="">
+          <h2 class="card-title text-center" 0>Canon 3000D</h2>
+          <p class="card-text text-center">
+            18 MP APS-C CMOS sensor.
+            Advanced creative features.
+            Vari-angle 7.7cm (3.0”) 3:2 ratio LCD.
+            Full HD movies</p>
+          <h6>$1000</h6>
+          <div class="star text-center">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="card-body">
+            <button class="btn btn-secondary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy
+              Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 heading">
+            <p class="display-3 fw-bold my-title"> Professional Camera</p>
+            <p class="h4 my-subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere quo ipsa accusamus explicabo saepe veritatis numquam aut, non doloribus? Et qui rerum cum eaque quasi quis mollitia nemo dignissimos.</p>
+            <button class="btn-btn-info mt-4 my-btn"> Explore Now </button>
+        </div>
+          <div class="col-md-6 ">
+            <img class="img-fluid header-img" src="undraw_Camera_re_cnp4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="">
+      <!-- Footer -->
+      <footer class="bg-secondary text-white text-center">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Footer Content</h5>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->  
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+    <!-- MDB -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
+      integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".mycard"), {
+        max: 30,
+        speed: 400,
+        // glare:true,
+        // reverse:true,
+        //  reset:false,
+        scale: 1.2
+      });
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+ScrollReveal().reveal('.header-img',{delay:300,origin:'bottom',distance:'100px',duration:2000})
+ScrollReveal().reveal('.my-title',{delay:300,origin:'right',distance:'50px',reset:true})
+ScrollReveal().reveal('.my-subtitle',{delay:300,origin:'left',distance:'50px',reset:true})
+ScrollReveal().reveal('.my-btn',{delay:300,origin:'bottom',distance:'50px',scale:3.0})
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Student admission form</h1>
+        <hr>
+        <label>Full Name</label>
+        <input type="text" placeholder="enter your name" required minlength="4">
+        <br><br>
+        <label>enter your email</label>
+        <input type="email">
+        <br><br>
+        <label>enter the date</label>
+        <input type="date">
+        <br><br>
+        <label>Enter the Address</label>
+        <br><br>
+        <textarea cols="30" rows="5"></textarea>
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br><br>
+        <label>Contact</label>
+        <input type="number">
+        <br><br>
+        <label for="image">Upload Image</label>
+        <input hidden id="image" type="file">
+        <br><br>
+        <label>Select Your City</label>
+        <select>
+            <option>Lucknow</option>
+            <option>Sultanpur</option>
+            <option>Ghaziabad</option>
+            <option>Azamgarh</option>
+        </select>
+        <br><br>
+        <label>Select Course</label>
+        <input type="text" list="course">
+        <datalist id="course">
+            <option>BTech</option>
+            <option>BArch</option>
+            <option>BBA</option>
+            <option>MBA</option>
+        </datalist>
+        <br><br>
+        <input type="checkbox">Accept Terms and Conditions
+        <br><br>
+        <details>
+        <summary>Terms And CONDITIONS</summary>
+            <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda at commodi inventore numquam dolores eligendi in vel fugit quo,<br> nihil animi provident doloremque corporis facilis quas aliquam, ipsa, maiores porro.
+        </p>
+        </details>
+        <br><br>
+        <button>Submit</button>                             
+    </form>
+</body>
+
+</html>

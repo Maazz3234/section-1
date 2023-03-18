@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bj.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+button{
+    background-color: blueviolet;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 60px;
+}
